@@ -1,9 +1,13 @@
-public class factorial{
-    public int fact(int n){
-        int ans=1;
-        for(int i=1;i<=n;i++){
-            ans*=i;
+
+public class factorial {
+
+    public int fact(int n) {
+        int ans = 1;
+
+        for (int i = 1; i <= n; i++) {
+            ans = ans * i;
         }
+
+        return ans;
     }
-    return ans;
 }
