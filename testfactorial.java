@@ -1,17 +1,19 @@
-public class testfactorial{
-    public static void main(String[] args){
-        factorial f=new factorial();
-        if(fact(5)==120){
-            System.out.println("Test passed");
+
+public class testfactorial {
+
+    public static void main(String[] args) {
+        factorial f = new factorial();
+
+        if (f.fact(5) == 120) {
+            System.out.println("Test Passed");
+        } else {
+            System.out.println("Test Failed");
         }
-        else{
-            System.out.println("Test failed");
-        }
-        if(fact(0)==1){
-            System.out.println("zero passed");
-        }
-        else{
-            System.out.println("Zero failed");
+
+        if (f.fact(0) == 1) {
+            System.out.println("Zero Test Passed");
+        } else {
+            System.out.println("Zero Test Failed");
         }
     }
 }
